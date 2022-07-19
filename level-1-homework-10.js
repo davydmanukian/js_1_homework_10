@@ -24,7 +24,7 @@ class Author{
 
 class book extends Author{
     constructor(title, price, quantity){
-        super(name, email, gender) 
+        super() 
         this.title = title,
         this.price = price,
         this.quantity = quantity
@@ -112,7 +112,7 @@ class Person{
 }
 class Student extends Person{
     constructor(programs, year, fee){
-        super(firstName, lastName, gender, age)
+        super()
         this.programs = ["Biology","Drawing","Chemistry","Geography"],
         this.year = year,
         this.fee = fee
@@ -142,7 +142,7 @@ class Student extends Person{
 
 class Teacher{
     constructor(programs, pay){
-        super(program, pay)
+        super()
         this.program = "to teach students",
         this.pay = pay
     }
